@@ -203,7 +203,7 @@ class ReActionsController extends Controller
             }
 
         } else {
-            $this->body = self::insertReAction($nid, $uuid, 2);
+            $this->body = self::insertReAction($nid, $uuid, $Status);
 
         }
     }

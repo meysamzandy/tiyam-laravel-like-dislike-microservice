@@ -294,7 +294,7 @@ class ReActionsControllerTest extends TestCase
             'wilson' => 0.0000
         ]);
 
-        // like aftr dislike
+        // like after dislike
         $data = [
             "n" => 111111,
             "u" => "Zy9rSUZITUJ5MW91MUVBeGI3SWZIK3NlRVB4dm56ZUZSNUFHb2FDalpRcUJ0c2Fo"
