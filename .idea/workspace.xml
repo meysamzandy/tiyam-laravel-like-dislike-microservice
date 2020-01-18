@@ -3,9 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="77c9b1a4-b86e-494a-a19c-9ef26c16b8f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/ReActionsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/ReActionsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/Feature/ReActionsControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/ReActionsControllerTest.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,34 +58,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReActionsController.php">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="345">
-              <caret line="189" column="5" lean-forward="true" selection-start-line="189" selection-start-column="5" selection-end-line="189" selection-end-column="5" />
-              <folding>
-                <element signature="e#40#81#0#PHP" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/helper/Reusable.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="491">
-              <caret line="52" column="36" selection-start-line="52" selection-start-column="20" selection-end-line="52" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/Http/Controllers/helper/Validators.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="70" column="32" selection-start-line="70" selection-start-column="32" selection-end-line="70" selection-end-column="32" />
-              <folding>
-                <element signature="e#132#160#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="253">
+              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -170,9 +145,9 @@
         <option value="$PROJECT_DIR$/app/Http/Controllers/helper/Reusable.php" />
         <option value="$PROJECT_DIR$/tests/Unit/ReActionsControllerTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/helper/Validators.php" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/tests/Feature/ReActionsControllerTest.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/ReActionsController.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -392,7 +367,12 @@
   <component name="PropertiesComponent">
     <property name="DatabaseDriversLRU" value="mysql&#10;sqlite" />
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="com.jetbrains.php.phpunit.codeGeneration.PhpNewTestDialog.defaultLibrary" value="PHPUnit" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="editor.config.ad.shown" value="true" />
@@ -400,7 +380,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="http.proxy" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -465,20 +445,19 @@
       <workItem from="1579009598986" duration="6000" />
       <workItem from="1579069487822" duration="8087000" />
       <workItem from="1579087501744" duration="8731000" />
-      <workItem from="1579323433419" duration="10123000" />
+      <workItem from="1579323433419" duration="10720000" />
     </task>
+    <task id="LOCAL-00001" summary="fix (status)">
+      <created>1579333774689</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1579333774689</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ReActionsControllerTest_(1) - 2020.01.18 at 09h 45m 01s.xml">
-      <configuration name="ReActionsControllerTest (1)" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ReActionsControllerTest_(1) - 2020.01.18 at 09h 45m 25s.xml">
-      <configuration name="ReActionsControllerTest (1)" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
-    <history-entry file="ReActionsControllerTest_(1) - 2020.01.18 at 09h 53m 13s.xml">
-      <configuration name="ReActionsControllerTest (1)" configurationId="PHPUnitRunConfigurationType" />
-    </history-entry>
     <history-entry file="ReActionsControllerTest_(1) - 2020.01.18 at 09h 57m 10s.xml">
       <configuration name="ReActionsControllerTest (1)" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
@@ -500,9 +479,18 @@
     <history-entry file="ReActionsControllerTest_testWilson - 2020.01.18 at 10h 44m 37s.xml">
       <configuration name="ReActionsControllerTest.testWilson" configurationId="PHPUnitRunConfigurationType" />
     </history-entry>
+    <history-entry file="ReActionsControllerTest - 2020.01.18 at 11h 17m 49s.xml">
+      <configuration name="ReActionsControllerTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ReActionsControllerTest - 2020.01.18 at 11h 18m 00s.xml">
+      <configuration name="ReActionsControllerTest" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+    <history-entry file="ReActionsControllerTest_(1) - 2020.01.18 at 11h 18m 08s.xml">
+      <configuration name="ReActionsControllerTest (1)" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154324000" />
+    <option name="totallyTimeSpent" value="154921000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -512,6 +500,8 @@
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" weight="0.32998884" />
+      <window_info anchor="bottom" id="File Transfer" weight="0.32998884" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32998884" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32998884" />
@@ -524,9 +514,10 @@
       <window_info anchor="bottom" id="SonarLint" order="9" weight="0.53511703" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32998884" />
-      <window_info anchor="bottom" id="Version Control" order="12" />
+      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.32998884" />
       <window_info anchor="bottom" x="1920" y="23" width="1920" height="1017" id="Terminal" maximized="true" order="13" weight="0.2541806" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="14" weight="0.32998884" />
+      <window_info anchor="right" id="Remote Host" visible="true" weight="0.32995737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -537,12 +528,11 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="fix (status)" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix (status)" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/Providers/RouteServiceProvider.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1394" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/tests/Feature/ReActionsTest.php" />
     <entry file="file://$USER_HOME$/Downloads/Telegram Desktop/reports_tests_Feature_StreamTest (1).php" />
     <entry file="das://f1d7bd32-5afa-43f0-b579-1415fb400210/schema/tiyam/table/users">
@@ -718,13 +708,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.env">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="698">
-          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/laravel/framework/src/Illuminate/Contracts/Routing/ResponseFactory.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -750,34 +733,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="12" column="6" selection-start-line="12" selection-start-column="6" selection-end-line="12" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Feature/ReActionsControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2795">
-          <caret line="320" column="26" lean-forward="true" selection-start-line="320" selection-start-column="26" selection-end-line="320" selection-end-column="26" />
-          <folding>
-            <element signature="e#138#179#0#PHP" expanded="true" />
-            <element signature="e#15154#18981#0#PHP" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/Unit/ReActionsControllerTest.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="70" column="92" selection-start-line="70" selection-start-column="89" selection-end-line="70" selection-end-column="92" />
-          <folding>
-            <element signature="e#135#176#0#PHP" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -828,11 +783,48 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/ReActionsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="345">
-          <caret line="189" column="5" lean-forward="true" selection-start-line="189" selection-start-column="5" selection-end-line="189" selection-end-column="5" />
+        <state relative-caret-position="276">
+          <caret line="186" column="25" lean-forward="true" selection-start-line="186" selection-start-column="25" selection-end-line="186" selection-end-column="25" />
           <folding>
             <element signature="e#40#81#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Feature/ReActionsControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7245">
+          <caret line="320" column="26" lean-forward="true" selection-start-line="320" selection-start-column="26" selection-end-line="320" selection-end-column="26" />
+          <folding>
+            <element signature="e#138#179#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/Unit/ReActionsControllerTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1175">
+          <caret line="70" column="92" selection-start-line="70" selection-start-column="89" selection-end-line="70" selection-end-column="92" />
+          <folding>
+            <element signature="e#135#176#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="49" column="12" selection-start-line="49" selection-start-column="12" selection-end-line="49" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/deployment.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
         </state>
       </provider>
     </entry>
