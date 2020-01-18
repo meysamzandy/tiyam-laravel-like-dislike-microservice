@@ -2,8 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77c9b1a4-b86e-494a-a19c-9ef26c16b8f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/deployment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/deployment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/4/14eeba45e00cb4022877cc9d4ba003a452b67f2b" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/1/a/1addd5159479c0fafb15d943c696e7976b63e496" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/4/7422e2bfd8994bef682e96757fbf1956bc270f42" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/7/e/7ee1de97d26a4eb26ec290f4cfc812a99405e24a" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/5/f5371fc875faed2f4da253c3c9b73fb04d3c3eb1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90561d8af97230384650cf416875ffd0c2e39160" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/9/0/90561d8af97230384650cf416875ffd0c2e39160" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webServers.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -56,12 +63,12 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+    <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/.env.testing">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+            <state relative-caret-position="345">
+              <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -271,69 +278,7 @@
             <path>
               <item name="tiyam" type="b2602c69:ProjectViewProjectNode" />
               <item name="tiyam" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tiyam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tiyam" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tiyam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tiyam" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tiyam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tiyam" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="Http" type="462c0819:PsiDirectoryNode" />
-              <item name="Controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="helper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tiyam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tiyam" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tiyam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tiyam" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tiyam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tiyam" type="462c0819:PsiDirectoryNode" />
-              <item name="database" type="462c0819:PsiDirectoryNode" />
-              <item name="migrations" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tiyam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tiyam" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tiyam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tiyam" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tiyam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tiyam" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="en" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tiyam" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tiyam" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="lang" type="462c0819:PsiDirectoryNode" />
-              <item name="fa" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tiyam" type="b2602c69:ProjectViewProjectNode" />
@@ -445,7 +390,8 @@
       <workItem from="1579009598986" duration="6000" />
       <workItem from="1579069487822" duration="8087000" />
       <workItem from="1579087501744" duration="8731000" />
-      <workItem from="1579323433419" duration="10720000" />
+      <workItem from="1579323433419" duration="12806000" />
+      <workItem from="1579336649481" duration="1166000" />
     </task>
     <task id="LOCAL-00001" summary="fix (status)">
       <created>1579333774689</created>
@@ -490,18 +436,25 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154921000" />
+    <option name="totallyTimeSpent" value="158173000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20149253" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20362474" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.32998884" />
-      <window_info anchor="bottom" id="File Transfer" weight="0.32998884" />
       <window_info anchor="bottom" id="Database Console" order="0" weight="0.32998884" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32998884" />
@@ -509,20 +462,22 @@
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32998884" />
       <window_info anchor="bottom" id="Docker" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="SonarLint" order="9" weight="0.53511703" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" weight="0.32998884" />
-      <window_info anchor="bottom" id="Version Control" order="12" visible="true" weight="0.32998884" />
-      <window_info anchor="bottom" x="1920" y="23" width="1920" height="1017" id="Terminal" maximized="true" order="13" weight="0.2541806" />
+      <window_info anchor="bottom" id="Version Control" order="12" weight="0.32998884" />
+      <window_info active="true" anchor="bottom" x="1920" y="23" width="1920" height="1017" id="Terminal" maximized="true" order="13" visible="true" weight="0.37123746" />
       <window_info anchor="bottom" id="Command Line Tools Console" order="14" weight="0.32998884" />
-      <window_info anchor="right" id="Remote Host" visible="true" weight="0.32995737" />
+      <window_info anchor="bottom" id="File Transfer" order="15" weight="0.32998884" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.32998884" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Coverage" order="3" sideWeight="0.50613153" side_tool="true" weight="0.26599148" />
       <window_info anchor="right" x="767" y="189" width="385" height="661" id="Database" order="4" sideWeight="0.49386844" weight="0.26599148" />
+      <window_info anchor="right" id="Remote Host" order="5" visible="true" weight="0.29051173" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -665,13 +620,6 @@
     <entry file="file://$PROJECT_DIR$/app/Wilson.php" />
     <entry file="file://$PROJECT_DIR$/.env.example">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.env.testing">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="813">
-          <caret line="50" column="49" selection-start-line="50" selection-start-column="49" selection-end-line="50" selection-end-column="49" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/ReActions.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -825,6 +773,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="253">
           <caret line="11" column="6" lean-forward="true" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.env.testing">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="15" column="20" lean-forward="true" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
         </state>
       </provider>
     </entry>

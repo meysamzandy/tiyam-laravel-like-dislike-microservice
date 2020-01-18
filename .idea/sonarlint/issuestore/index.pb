@@ -71,3 +71,16 @@ Bdatabase/migrations/2020_01_13_124036_trigger_insert_on_status.php,c\d\cdcf0b2
 config/app.php,7\3\734f7be25e8008acc7129e73cd116d5de913e6fd
 @
 config/cache.php,8\5\85b552139c7f666652636ddf8db9133860f81e48
+}
+Mvendor/laravel/framework/src/Illuminate/Contracts/Routing/ResponseFactory.php,7\4\7422e2bfd8994bef682e96757fbf1956bc270f42
+u
+Evendor/laravel/framework/src/Illuminate/Support/Facades/Validator.php,1\4\14eeba45e00cb4022877cc9d4ba003a452b67f2b
+J
+resources/lang/fa/dict.php,7\e\7ee1de97d26a4eb26ec290f4cfc812a99405e24a
+X
+(app/Http/Controllers/helper/Reusable.php,1\a\1addd5159479c0fafb15d943c696e7976b63e496
+Z
+*app/Http/Controllers/helper/Validators.php,f\5\f5371fc875faed2f4da253c3c9b73fb04d3c3eb1
+:
+
+.gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
