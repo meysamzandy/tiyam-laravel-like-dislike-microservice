@@ -19,6 +19,8 @@ class CreateReactionsTable extends Migration
             $table->integer('nid')->unsigned()->comment('store nid of products');
             $table->tinyInteger('status')->unsigned()->comment('store none = 0, like = 1, dislike = 2');
             $table->tinyInteger('change_number')->unsigned()->comment('store number of user reactions limit up to 5');
+            $table->boolean('source')->default(0)->comment('store source of input');
+            $table->bigInteger('offset')->unsigned()->nullable(true)->comment('store offset of source input');
             $table->timestamps();
             $table->index('id');
             $table->index('uuid');
