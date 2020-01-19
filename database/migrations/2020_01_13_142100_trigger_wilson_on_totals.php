@@ -46,29 +46,6 @@ class TriggerWilsonOnTotals extends Migration
      */
     public function down()
     {
-//        DB::unprepared('
-//        CREATE TRIGGER trigger_wilson_on_total AFTER UPDATE ON `totals`
-//         FOR EACH ROW
-//            BEGIN
-//                SET @WILSON = 0;
-//                SET @LIKE = NEW.like;
-//                SET @DISLIKE = NEW.dislike;
-//                IF (NEW.like + NEW.dislike) > 0 THEN
-//                      SET @WILSON = (
-//                            (NEW.like + 1.9208) / (NEW.like + @DISLIKE) - 1.96 *
-//                            SQRT ((@LIKE * @DISLIKE) / (@LIKE + @DISLIKE) + 0.9604) / (@LIKE + @DISLIKE)
-//                      ) / (1 + 3.8416 / ((@LIKE + @DISLIKE)));
-//
-//                      SET @COUNT=(SELECT COUNT(nid) FROM wilsons WHERE nid=NEW.nid );
-//                            UPDATE wilsons
-//                                SET
-//                                  wilsons.wilson  = @WILSON,
-//                                  wilsons.updated_at = NOW()
-//                            WHERE (nid = NEW.nid);
-//                 END IF;
-//            END
-//
-//
-//        ');
+
     }
 }
