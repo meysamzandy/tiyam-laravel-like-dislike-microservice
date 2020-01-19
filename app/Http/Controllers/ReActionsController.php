@@ -221,6 +221,7 @@ class ReActionsController extends Controller
 
             $this->statusCode = 403;
             $this->statusMessage = self::FORBIDDEN;
+            $this->message = __('dict.notLogging');
 
             $secret = $request->input('u');
 
