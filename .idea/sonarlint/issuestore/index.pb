@@ -84,3 +84,13 @@ Z
 :
 
 .gitignore,a\5\a5cc2925ca8258af241be7e5b0381edf30266302
+r
+Bdatabase/migrations/2019_08_19_000000_create_failed_jobs_table.php,1\f\1f602a21e13ac2fa47afd78866311d456f21841f
+v
+Fdatabase/migrations/2014_10_12_100000_create_password_resets_table.php,e\f\eff59cfca55470b5a81fdbeb82498e8bfe5c8174
+l
+<database/migrations/2014_10_12_000000_create_users_table.php,d\e\de963aaada5c6577b654cfbdcf083dc355b1fa2b
+S
+#vendor/composer/autoload_static.php,b\e\be2b2e999491d2e0d80d9198dd809e411299111c
+T
+$app/Providers/AppServiceProvider.php,4\8\48b8d8112e9bdd32ee7e25b1224d6739eece1e72
