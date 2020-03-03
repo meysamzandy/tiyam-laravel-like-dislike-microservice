@@ -19,3 +19,18 @@
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteRule ^ index.php [L]
 </IfModule>
+
+
+# Various header fixes.
+<IfModule mod_headers.c>
+#   Disable content sniffing, since it's an attack vector.
+   Header always set X-Content-Type-Options nosniff
+#  Header set Access-Control-Allow-Origin "*"
+#  Header set Access-Control-Allow-Origin "https://filmgardi.com"
+  Header set Access-Control-Allow-Origin "https://filmgardi.com"
+  Header set Access-Control-Allow-Credentials "true"
+  Header add Access-Control-Allow-Headers "X-Filmgardi-Ip, origin, x-requested-with, content-type, cache-control"
+#  # Disable Proxy header, since it's an attack vector.
+#  RequestHeader unset Proxy
+
+</IfModule>
