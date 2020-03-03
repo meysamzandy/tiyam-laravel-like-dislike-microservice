@@ -77,6 +77,15 @@ class ReActionsControllerTest extends TestCase
 
 
         $request->query->set('n', $this->reActionsFirst->nid);
+        $request->query->set('u', '');
+        $votes = $this->reActionsController->getData($request);
+        $this->assertNotEmpty($votes->getContent());
+        $this->assertJson($votes->getContent());
+        $this->assertEquals(200, $votes->getStatusCode());
+        $this->assertEquals(true, $votes->isOk());
+        $this->assertJsonStringEqualsJsonString('{"body":{"status":null,"like":' . $this->totalFirst->like . ',"dislike":' . $this->totalFirst->dislike . ',"total":' . $this->totalFirst->total . ',"wilson":' . $this->totalFirst->wilson . '},"message":null}', $votes->getContent());
+
+        $request->query->set('n', $this->reActionsFirst->nid);
         $request->query->set('u', (new Reusable())->encrypt($this->reActionsFirst->uuid, env('DECRYPT_KEY'), env('DECRYPT_IV')));
         $votes = $this->reActionsController->getData($request);
         $this->assertNotEmpty($votes->getContent());
@@ -99,6 +108,9 @@ class ReActionsControllerTest extends TestCase
         $this->assertNull($reActions);
 
         $reActions = $this->reActionsController->getReActions($this->reActionsFirst->uuid, '0e0');
+        $this->assertNull($reActions);
+
+        $reActions = $this->reActionsController->getReActions('', $this->reActionsFirst->nid);
         $this->assertNull($reActions);
 
         $reActions = $this->reActionsController->getReActions($this->reActionsFirst->uuid, $this->reActionsFirst->nid);

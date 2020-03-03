@@ -74,6 +74,10 @@ class ReActionsControllerTest extends TestCase
         $response = $this->get($url);
         $response->assertStatus(200);
 
+        $url = self::VOTES . '?n=' . $this->reActionsFirst->nid . '&u=';
+        $response = $this->get($url);
+        $response->assertStatus(200);
+
     }
 
     public function testPostListApi()

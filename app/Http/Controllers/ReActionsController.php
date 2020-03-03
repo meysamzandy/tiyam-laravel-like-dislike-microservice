@@ -258,7 +258,8 @@ class ReActionsController extends Controller
      */
     public function renderDataIfUuidIsValid(request $request, bool $secretValidator, string $uuid): void
     {
-        if ($secretValidator && Validators::uuidValidator(['uuid' => $uuid])) {
+        $secret = $request->input('u');
+        if (($secretValidator && Validators::uuidValidator(['uuid' => $uuid])) || empty($secret)) {
 
             $nid = $request->input('n');
             $actions = self::getReActions($uuid, $nid);
