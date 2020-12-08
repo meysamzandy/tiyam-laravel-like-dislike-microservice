@@ -8,6 +8,7 @@ use App\ReActions;
 use App\Total;
 use Illuminate\Http\JsonResponse;
 use Illuminate\Http\Request;
+use Nowakowskir\JWT\Base64Url;
 
 class ReActionsController extends Controller
 {
@@ -16,6 +17,7 @@ class ReActionsController extends Controller
     const DECRYPT_KEY = 'DECRYPT_KEY';
     const DECRYPT_IV = 'DECRYPT_IV';
     const ANONYMOUS = 'ANONYMOUS';
+
     private
         $body = NULL,
         $message = NULL,
@@ -62,9 +64,7 @@ class ReActionsController extends Controller
 
         $nidValidator = Validators::nidValidatorTotal($request);
 
-        $secretValidator = Validators::secretValidatorTotal($request);
-
-        $this->renderDataIfNidIsValid($request, $nidValidator, $secretValidator);
+        $this->renderDataIfNidIsValid($request, $nidValidator);
 
         return Reusable::returnDataInJson($this->body, $this->message, $this->statusCode, $this->statusMessage);
     }
@@ -217,16 +217,20 @@ class ReActionsController extends Controller
      */
     public function ifValidate(request $request, bool $Validator, int $CheckStatus, int $Status): void
     {
-        if ($Validator) {
+        $uuid = null ;
+        $tokenData = $this->getPayloadFromJwt($request->bearerToken());
+        if ($Validator && $tokenData) {
 
             $this->statusCode = 403;
             $this->statusMessage = self::FORBIDDEN;
             $this->message = __('dict.notLogging');
 
-            $secret = $request->input('u');
-
-            $uuid = Reusable::decrypt($secret, env(self::DECRYPT_KEY), env(self::DECRYPT_IV));
-
+            if (isset($tokenData['auid'])) {
+                $uuid = $tokenData['auid'];
+            }
+            if (isset($tokenData['body']['auid'])) {
+                $uuid = $tokenData['body']['auid'];
+            }
             $this->ifUserIsLoggedIn($request, $CheckStatus, $Status, $uuid);
 
         }
@@ -253,13 +257,20 @@ class ReActionsController extends Controller
 
     /**
      * @param Request $request
-     * @param bool $secretValidator
-     * @param string $uuid
      */
-    public function renderDataIfUuidIsValid(request $request, bool $secretValidator, string $uuid): void
+    public function renderDataIfUuidIsValid(request $request): void
     {
-        $secret = $request->input('u');
-        if (empty($secret) || ($secretValidator && Validators::uuidValidator(['uuid' => $uuid])) ) {
+        $uuid = null;
+        $tokenData = $this->getPayloadFromJwt($request->bearerToken());
+        if ($tokenData) {
+            if (isset($tokenData['auid'])) {
+                $uuid = $tokenData['auid'];
+            }
+            if (isset($tokenData['body']['auid'])) {
+                $uuid = $tokenData['body']['auid'];
+            }
+        }
+        if (Validators::uuidValidator(['uuid' => $uuid]) ) {
 
             $nid = $request->input('n');
             $actions = self::getReActions($uuid, $nid);
@@ -281,17 +292,14 @@ class ReActionsController extends Controller
     /**
      * @param Request $request
      * @param bool $nidValidator
-     * @param bool $secretValidator
      */
-    public function renderDataIfNidIsValid(request $request, bool $nidValidator, bool $secretValidator): void
+    public function renderDataIfNidIsValid(request $request, bool $nidValidator): void
     {
         if ($nidValidator) {
-            $secret = $request->input('u');
-            $uuid = Reusable::decrypt($secret, env(self::DECRYPT_KEY), env(self::DECRYPT_IV));
             $this->statusCode = 403;
             $this->statusMessage = self::FORBIDDEN;
 
-            $this->renderDataIfUuidIsValid($request, $secretValidator, $uuid);
+            $this->renderDataIfUuidIsValid($request);
 
         }
     }
@@ -314,4 +322,10 @@ class ReActionsController extends Controller
         }
     }
 
+    public function getPayloadFromJwt($token)
+    {
+        $token = str_replace('Bearer ', '', $token);
+        list($header, $payload, $signature) = explode('.', $token);
+        return json_decode(Base64Url::decode($payload), true);
+    }
 }
