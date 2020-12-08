@@ -324,6 +324,9 @@ class ReActionsController extends Controller
 
     public function getPayloadFromJwt($token)
     {
+        if (!$token) {
+            return null ;
+        }
         $token = str_replace('Bearer ', '', $token);
         list($header, $payload, $signature) = explode('.', $token);
         return json_decode(Base64Url::decode($payload), true);
