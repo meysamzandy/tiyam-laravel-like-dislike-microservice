@@ -1,5 +1,5 @@
 ## Installation Tips
-tiyam is a like/dislike microservice for filmgardi.com
+tiyam is a like/dislike microservice
 
 ### Requirements installation
 
@@ -11,7 +11,7 @@ Install the composer v2<br>
 Enable the event on mariadb<br>
 
 ### Requirements Command
-run `git clone http://git.novincinema.com/ayeneh/new_tiyam.git` <br>
+run `git clone https://github.com/meysamzandy/tiyam.git` <br>
 run `cd /var/www/tiyam` <br>
 run `composer install` <br>
 Duplicate .env.example to .env <br>
